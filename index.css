@@ -11,13 +11,14 @@ p,h5{
 
     display: flex;
     height:100vh;
+    width:100vw;
 }
 
 .left-section{
 
 
 height:100vh;
-width:50%;
+width:46%;
 
 }
 .left-section-profile{
@@ -86,8 +87,9 @@ border-radius: 50%;
 
 .sub-left-education{
     
-    padding:1rem 0 0.6rem 0;
+    padding:1rem 0 0.6rem 0rem;
     margin:0 3rem 2rem 3rem;
+    width:75%
 }
 .sub-left-education1,.sub-left-education2{
 
@@ -110,10 +112,10 @@ border-radius: 50%;
 
 
   margin-left: 3rem;
-    /* text-align: center; */
-    /* margin:0 3rem 2rem 3rem; */
-margin-bottom: 2rem;;
+  
+margin-bottom: 5rem;;
 margin-right:2rem;
+width:75%
 }
 
 .sub-left-language ul{
@@ -122,7 +124,8 @@ margin-right:2rem;
 
 .sub-left-language ul li{
     margin-bottom:0.4rem;
-    list-style-type: disc;
+    list-style-type:disc;
+    
 }
 
 .language-grid{
@@ -133,6 +136,7 @@ margin-right:2rem;
 .language-grid .progress{
     width:80%;
 }
+/* Right section */
 .right-section {
 
     margin:2rem 2rem 2rem 2rem;
@@ -156,9 +160,16 @@ margin-right:2rem;
 .grid-workexp{
 
     display: grid;
-    grid-template-columns: 0.3fr 2fr 2fr;
+    grid-template-columns: 0.3fr 2fr 1.5fr;
     margin-top:1rem;
     margin-bottom:0.5rem;
+
+
+}
+
+
+.grid-workexp .date{
+    flex:3;
 }
 .right-sub-section2 p{
     color:rgb(92, 90, 90);
@@ -200,3 +211,4 @@ margin-right:2rem;
 .sub-left-education1 i{
     margin-top:0.4rem;
 }
+
